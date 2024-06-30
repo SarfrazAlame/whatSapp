@@ -7,11 +7,9 @@ import './index.css'
 const App = () => {
   return (
     <div className='p-6'>
-      <div className='flex w-full justify-around'>
-        <div className='flex'>
-          <List />
-          <Chat />
-        </div>
+      <div className='flex w-full justify-between'>
+        <List />
+        <Chat />
         <Detail />
       </div>
     </div>
