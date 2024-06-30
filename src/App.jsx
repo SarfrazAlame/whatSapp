@@ -6,10 +6,12 @@ import './index.css'
 
 const App = () => {
   return (
-    <div className=''>
+    <div className='p-6'>
       <div className='flex w-full justify-around'>
-        <List />
-        <Chat />
+        <div className='flex'>
+          <List />
+          <Chat />
+        </div>
         <Detail />
       </div>
     </div>
