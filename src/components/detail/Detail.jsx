@@ -2,7 +2,7 @@ import React from 'react'
 
 const Detail = () => {
   return (
-    <div>Detail</div>
+    <div className='border-l border-gray-400'>Detail</div>
   )
 }
 

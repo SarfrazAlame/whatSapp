@@ -2,7 +2,7 @@ import React from 'react'
 
 const Chat = () => {
   return (
-    <div>Chat</div>
+    <div className='border-l h-screen border-gray-400'>Chat</div>
   )
 }
 
