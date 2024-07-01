@@ -6,8 +6,8 @@ import './index.css'
 
 const App = () => {
   return (
-    <div className='p-6'>
-      <div className='flex w-full justify-between'>
+    <div className=''>
+      <div className='flex w-full justify-between mx-12'>
         <List />
         <Chat />
         <Detail />
